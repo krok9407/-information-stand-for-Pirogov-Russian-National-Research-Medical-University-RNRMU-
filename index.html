@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="ru">
   <head>
-    <meta charset="windows-1251">
+    <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title>Unity WebGL Player | Stoyka</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
@@ -89,7 +89,7 @@
 
       var script = document.createElement("script");
       script.src = loaderUrl;
-      script.charset="windows-1251"
+      script.charset="utf-8";
       script.onload = () => {
         createUnityInstance(canvas, config, (progress) => {
           progressBarFull.style.width = 100 * progress + "%";
