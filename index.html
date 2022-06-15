@@ -89,6 +89,7 @@
 
       var script = document.createElement("script");
       script.src = loaderUrl;
+      script.charset="windows-1251"
       script.onload = () => {
         createUnityInstance(canvas, config, (progress) => {
           progressBarFull.style.width = 100 * progress + "%";
