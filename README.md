@@ -1,1 +1,0 @@
-university navigation app. Map of the area and list of audiences. Ability to select the end point and display the route of the path. Implemented for information stands located on the territory of the University
